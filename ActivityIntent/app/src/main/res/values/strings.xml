@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivityIntent</string>
+    <string name="hint_msg">请输入需要传递的信息</string>
+    <string name="submit">提交</string>
+    <string name="toast">请输入信息</string>
+    <string name="second_activity_label">SecondActivity</string>
+    <string name="first_activity_label">FirstActivity</string>
+</resources>
