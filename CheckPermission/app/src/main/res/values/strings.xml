@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CheckPermission</string>
+    <string name="checkpermission">CheckPermission来了</string>
+    <string name="staffactivity">启动StaffActivity</string>
+</resources>

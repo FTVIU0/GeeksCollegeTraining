@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nlte.caculator.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_answer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingStart="@dimen/padding_right"
+        android:paddingLeft="@dimen/padding_right"
+        android:paddingEnd="@dimen/padding_right"
+        android:paddingRight="@dimen/padding_right"
+        android:textSize="@dimen/answer_text_size"
+        android:layout_weight="1"
+        android:gravity="bottom|end"
+        android:background="@color/tvBackground"/>
+    <GridView
+        android:id="@+id/gv_number"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:numColumns="4"
+        android:layout_weight="3"
+        android:layout_marginTop="@dimen/gv_layout_margin_top"
+        android:horizontalSpacing="@dimen/horizontalSpacing"
+        android:verticalSpacing="@dimen/verticalSpacing"
+        android:scrollbars="none">
+    </GridView>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PlayMusicAndLrc</string>
+    <string name="start">播放</string>
+    <string name="stop">暂停</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LocalApp</string>
+    <string name="launch_local_activity">Launch Local Activity</string>
+    <string name="label_main_activity">MainActivity</string>
+    <string name="local_activity">这是LocalActivity</string>
+    <string name="label_local_activity">LocalActivity</string>
+</resources>

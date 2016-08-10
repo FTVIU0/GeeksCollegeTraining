@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ClearMemory</string>
+    <string name="toast">清理了%1$d个进程释放%2$dM内存</string>
+    <string name="d">df</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImpCheckPermission</string>
+    <string name="checkpermission">呼叫CheckPermission</string>
+</resources>

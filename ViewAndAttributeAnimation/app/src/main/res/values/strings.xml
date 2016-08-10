@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewAndAttributeAnimation</string>
+    <string name="move_this_by_viewanimation_xml">Move this by ViewAnimation(XML)</string>
+    <string name="move_this_by_viewanimation_java_code">Move this by ViewAnimation(Java Code)</string>
+    <string name="move_button_by_objectanimator_xml">Move this by ObjectAnimator(XML)</string>
+    <string name="move_this_by_objectanimator_java_code">Move this by ObjectAnimator(Java Code)</string>
+</resources>

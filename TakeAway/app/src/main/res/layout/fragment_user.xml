@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            tools:context="com.nlte.baidutakeaway.fragment.UserFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/rl_user_layout_height"
+            android:background="@mipmap/at_me_top_bg">
+
+            <ImageView
+                android:id="@+id/iv_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:padding="@dimen/iv_user_padding"
+                android:src="@mipmap/setting"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/btn_user_layout_marginTop"
+                android:background="@drawable/login_bg"
+                android:text="@string/btn_login_reg"
+                android:textColor="@android:color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    style="@style/userTextViewStyle"
+                    android:text="@string/coupon"/>
+
+                <TextView
+                    style="@style/userTextViewStyle"
+                    android:text="@string/favorite_shop"/>
+
+                <TextView
+                    style="@style/userTextViewStyle"
+                    android:text="@string/money"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_user_layout_height"
+            android:background="@color/gray"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wallet_cashback_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:padding="@dimen/user_padding"
+                android:src="@mipmap/bd_wallet_cashback_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/wallet_cashback_logo"
+                android:padding="@dimen/user_padding"
+                android:text="@string/baidu_wallet"/>
+
+            <TextView
+                android:id="@+id/tv_broadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:padding="@dimen/user_padding"
+                android:text="@string/wallet_label"
+                android:textColor="@color/themeColor"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/user_5dp"
+                android:padding="5dp"
+                android:src="@mipmap/wallet_personal_right_arrow"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/user_1dp"
+                android:layout_below="@id/tv_broadcast"
+                android:background="@color/gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_broadcast"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/userCardTextViewStyle"
+                    android:drawableTop="@mipmap/in"
+                    android:text="@string/user_return_money"/>
+
+                <TextView
+                    style="@style/userCardTextViewStyle"
+                    android:drawableTop="@mipmap/card"
+                    android:text="@string/user_card"/>
+
+                <TextView
+                    style="@style/userCardTextViewStyle"
+                    android:drawableTop="@mipmap/paycard"
+                    android:text="@string/user_pay_card"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_user_layout_height"
+            android:background="@color/gray"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_user_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <include
+            layout="@layout/user_card_trail"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/user_18dp"
+            android:background="@color/gray"/>
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CheckAnswer</string>
+    <string name="text">你的性别</string>
+    <string name="man">男</string>
+    <string name="women">女</string>
+    <string name="oceans_text">选择出不属于四大洋的结果</string>
+    <string name="submit">提交</string>
+    <string name="checkbox_item1">太平洋</string>
+    <string name="checkbox_item2">大西洋</string>
+    <string name="checkbox_item3">暖洋洋</string>
+    <string name="checkbox_item4">印度洋</string>
+    <string name="checkbox_item5">北冰洋</string>
+    <string name="checkbox_item6">渤海湾</string>
+    <string name="correct">正确</string>
+    <string name="wrong">错误</string>
+    <string name="answer">性别：%1$s &#160; &#160;&#160;你的选择%2$s</string>
+</resources>

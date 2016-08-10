@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="time_label">定时时间：</string>
+    <string name="schedule_label">事件内容：</string>
+    <string name="action_add_schedule">添加事件</string>
+    <string name="remind_label">提醒整点时间</string>
+    <string name="schedule_content_label">事件内容</string>
+    <string name="btn_add">添加</string>
+    <string name="add_schedule_activity_title">添加新事件</string>
+    <string name="remind">提醒</string>
+    <string name="dialog_message">确定删除日程吗？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="toast_msg">请填写完整信息！</string>
+    <string name="toast_msg_2">请输入[0, 24)之间的整数！</string>
+    <string name="delete_success">删除成功！</string>
+    <string name="content_title">您有新的任务</string>
+    <string name="show">RemindService已启动！</string>
+</resources>

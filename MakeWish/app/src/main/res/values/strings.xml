@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MakeWish</string>
+    <string name="btn_text">写出你今天的愿望</string>
+    <string name="tv_text">您今天的愿望是：</string>
+    <string name="tv_input_text">请写出你今天的愿望</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="toast">今天你不许愿了吗？</string>
+    <string name="label_main_activity">接收Activity返回值</string>
+    <string name="label_input_msg_activity">输入愿望</string>
+    <string name="toast_cancel">您取消了许愿</string>
+</resources>

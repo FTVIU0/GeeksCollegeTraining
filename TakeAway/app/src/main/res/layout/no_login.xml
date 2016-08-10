@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/no_login_iv_layw"
+        android:layout_height="@dimen/no_login_layh"
+        android:layout_marginTop="15dp"
+        android:id="@+id/iv_prompt_login"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/prompt_login"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/no_login_laymt"
+        android:layout_marginBottom="@dimen/no_login_laymb"
+        android:text="@string/text"
+        android:id="@+id/tv_label"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="@dimen/no_login_btn_layw"
+        android:layout_height="@dimen/no_login_btn_layh"
+        android:text="@string/btn_login_reg"
+        android:id="@+id/btn_login_reg"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@mipmap/login_promote_background"/>
+
+</LinearLayout>

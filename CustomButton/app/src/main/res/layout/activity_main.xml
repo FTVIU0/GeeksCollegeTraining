@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nlte.custombutton.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable"
+        android:id="@+id/tvEnable"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/click_me"
+        android:id="@+id/btnEnable"
+        android:layout_below="@+id/tvEnable"
+        android:layout_toRightOf="@+id/tvEnable"
+        android:layout_toEndOf="@+id/tvEnable"
+        android:background="@drawable/btn_enable_bg"
+        android:layout_marginTop="@dimen/layout_marginTop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disable"
+        android:id="@+id/tvDisable"
+        android:layout_below="@+id/btnEnable"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/layout_marginTop"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_me"
+        android:id="@+id/btnDisable"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_disable_bg"
+        android:clickable="false"
+        android:layout_below="@+id/tvDisable"
+        android:layout_alignRight="@+id/btnEnable"
+        android:layout_alignEnd="@+id/btnEnable"
+        android:layout_marginTop="@dimen/layout_marginTop"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/btnDisable"
+        android:layout_alignLeft="@+id/btnDisable"
+        android:layout_alignStart="@+id/btnDisable"
+        style="@style/CustomCheckboxTheme"
+        android:layout_marginTop="@dimen/layout_marginTop"/>
+</RelativeLayout>

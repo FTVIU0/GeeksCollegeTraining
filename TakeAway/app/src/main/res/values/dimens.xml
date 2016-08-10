@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="rl_user_layout_height">150dp</dimen>
+    <dimen name="iv_user_padding">10dp</dimen>
+    <dimen name="btn_user_layout_marginTop">45dp</dimen>
+    <dimen name="view_user_layout_height">8dp</dimen>
+    <dimen name="user_padding">5dp</dimen>
+    <dimen name="user_5dp">5dp</dimen>
+    <dimen name="user_1dp">1dp</dimen>
+    <dimen name="user_18dp">18dp</dimen>
+    <dimen name="eat_height">40dp</dimen>
+    <dimen name="address_toobar_layout_height">40dp</dimen>
+    <dimen name="home_SliderLayout">120dp</dimen>
+    <dimen name="home_recylerview_layout_height">148dp</dimen>
+    <dimen name="home_layout_marginStart">10dp</dimen>
+    <dimen name="home_padding">5dp</dimen>
+    <dimen name="order_toolbar">40dp</dimen>
+    <dimen name="home_menu_5">5dp</dimen>
+    <dimen name="home_menu_10">10dp</dimen>
+    <dimen name="no_login_iv_layw">90dp</dimen>
+    <dimen name="no_login_layh">90dp</dimen>
+    <dimen name="no_login_laymt">20dp</dimen>
+    <dimen name="no_login_laymb">20dp</dimen>
+    <dimen name="no_login_btn_layw">100dp</dimen>
+    <dimen name="no_login_btn_layh">30dp</dimen>
+    <dimen name="tab_20">20dp</dimen>
+    <dimen name="tab_padding">15dp</dimen>
+    <dimen name="tab_lly">5dp</dimen>
+    <dimen name="user_card_trail_lh">10dp</dimen>
+    <dimen name="user_card_trail_8">8dp</dimen>
+</resources>

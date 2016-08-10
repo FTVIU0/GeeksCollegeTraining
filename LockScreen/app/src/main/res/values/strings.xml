@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LockScreen</string>
+    <string name="configure_name">Configure</string>
+    <string name="lock_label">一键锁屏</string>
+    <string name="toast_unreg">注销系统组件</string>
+    <string name="toast_reg">成功注册系统组件</string>
+    <string name="tip">需要获取设备管理者权限才能拥有锁屏功能</string>
+    <string name="reg_device_admin">获取设备管理者权限</string>
+    <string name="unreg_device_admin">取消设备管理者权限</string>
+    <string name="lock_screen">锁屏</string>
+</resources>

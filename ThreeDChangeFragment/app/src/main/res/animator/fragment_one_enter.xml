@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="0"
+        android:propertyName="rotationY"
+        android:valueFrom="0f"
+        android:valueTo="90f" />
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="rotationY"
+        android:startOffset="1000"
+        android:valueFrom="90f"
+        android:valueTo="0f" />
+</set>

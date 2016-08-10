@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="contact_default_name">Chinese</string>
+    <string name="contact_default_phone_number">18898871906</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_contact">Add Contacts</string>
+    <string name="toast_input">Please Input All Messages</string>
+    <string name="toast_format">Mobile phone number containing illegal format, can not be added to the address book</string>
+    <string name="label_activity">Contacts</string>
+</resources>

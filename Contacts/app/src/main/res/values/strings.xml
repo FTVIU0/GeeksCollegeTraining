@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">通信录</string>
+    <string name="contact_default_name">Chinese</string>
+    <string name="contact_default_phone_number">18898871906</string>
+    <string name="name">姓名</string>
+    <string name="phone_number">电话号码</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="add_contact">添加联系人</string>
+    <string name="toast_input">请输入所有信息</string>
+    <string name="toast_format">手机号码含有非法格式，无法添加到通信录</string>
+    <string name="label_activity">联系人</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nlte.viewandattributeanimation.MainActivity">
+
+    <Button
+        android:id="@+id/btn_view_anim_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/move_this_by_viewanimation_xml"/>
+    <Button
+        android:id="@+id/btn_view_anim_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/move_this_by_viewanimation_java_code"/>
+    <Button
+        android:id="@+id/btn_object_anim_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/move_button_by_objectanimator_xml"/>
+    <Button
+        android:id="@+id/btn_object_anim_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/move_this_by_objectanimator_java_code"/>
+    <ImageView
+        android:id="@+id/iv"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/m"/>
+</LinearLayout>

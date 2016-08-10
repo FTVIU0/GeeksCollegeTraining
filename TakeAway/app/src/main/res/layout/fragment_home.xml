@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.nlte.baidutakeaway.fragment.HomeFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/address_toobar_layout_height"
+        android:background="@color/themeColor">
+
+        <TextView
+            android:id="@+id/toolbarTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/address_bg"
+            android:drawableEnd="@mipmap/shop_detail_announce_down"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/home_text"
+            android:textColor="@android:color/white"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_SliderLayout">
+            </com.daimajia.slider.library.SliderLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_home_menu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_recylerview_layout_height"
+                android:padding="3dp">
+            </android.support.v7.widget.RecyclerView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/wallet_cashback_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/home_layout_marginStart"
+                    android:padding="@dimen/home_padding"
+                    android:src="@mipmap/waimai_shopmenu_booktips"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/wallet_cashback_logo"
+                    android:ellipsize="end"
+                    android:padding="@dimen/home_padding"
+                    android:text="@string/_7_7"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/home_padding"
+                    android:padding="@dimen/home_padding"
+                    android:src="@mipmap/wallet_personal_right_arrow"/>
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_shop_item_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

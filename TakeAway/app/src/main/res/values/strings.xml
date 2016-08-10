@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">BaiduTakeAway</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">首页</string>
+    <string name="eat">吃啥</string>
+    <string name="order">订单</string>
+    <string name="user">我的</string>
+    <string name="text">您还没有登陆，请登录后查看订单</string>
+    <string name="btn_login_reg">登陆/注册</string>
+    <string name="coupon">代金券</string>
+    <string name="favorite_shop">收藏店铺</string>
+    <string name="money">余额</string>
+    <string name="baidu_wallet">百度钱包</string>
+    <string name="wallet_label">常年支付返现1%，最高免单</string>
+    <string name="user_return_money">累计返现</string>
+    <string name="user_card">卡券包</string>
+    <string name="user_pay_card">银行卡</string>
+    <string name="_7_7">吃货狂欢节，美食大集锦，全场7.7</string>
+    <string name="home_text">送至：中山大学</string>
+    <string name="shop_item_text">正宗重庆麻辣烫</string>
+    <string name="_106">月售 106 份</string>
+    <string name="_0_5">起送￥0 | 配送￥5</string>
+    <string name="_161_6km">161.6km |</string>
+    <string name="_1">1天</string>
+    <string name="_30">下单立减30元券</string>
+    <string name="_13_23">新用户在线支付立减13元，使用百度钱包立减23元</string>
+    <string name="_25_20">用户在线支付满25元减20元</string>
+    <string name="_10_1_30">支付满10元，即有机会赢取1-30元同享代金券</string>
+    <string name="_400_011_777">客服 400-011-777</string>
+
+
+    <string-array name="userCard">
+        <item>分享有礼</item>
+        <item>我的地址</item>
+        <item>评论</item>
+        <item>我的退款</item>
+        <item>我的客服</item>
+        <item>我的消息</item>
+        <item>常见问题</item>
+        <item>商家入驻</item>
+        <item>成长轨迹</item>
+        <item>申请联名卡</item>
+    </string-array>
+
+
+    <string-array name="home_menu">
+        <item>餐饮</item>
+        <item>夜宵</item>
+        <item>超市购</item>
+        <item>小资轻奢</item>
+        <item>百度传送</item>
+        <item>吃货717</item>
+        <item>质享生活</item>
+        <item>新店特惠</item>
+        <item>下午茶</item>
+        <item>夏日畅饮</item>
+        <item>百度糯米</item>
+        <item>土豪特供</item>
+        <item>商务快餐</item>
+        <item>异国风味</item>
+        <item>鲜花蛋糕</item>
+        <item>无辣不欢</item>
+        <item>大牌特惠</item>
+        <item>送药上门</item>
+        <item>水果生鲜</item>
+        <item>龙虾盛宴</item>
+
+    </string-array>
+
+</resources>

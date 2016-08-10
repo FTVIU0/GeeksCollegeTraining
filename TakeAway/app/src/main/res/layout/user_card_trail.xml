@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <View
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_card_trail_lh"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/user_card_trail_8">
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:src="@mipmap/mypage_list_icon_call"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_400_011_777"
+            android:textColor="@color/themeColor"/>
+    </LinearLayout>
+
+</LinearLayout>
