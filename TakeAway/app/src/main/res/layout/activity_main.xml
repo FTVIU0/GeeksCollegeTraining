@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context="com.nlte.baidutakeaway.MainActivity">
 
+
     <android.support.v4.view.ViewPager
         android:background="#e4d9d9"
         android:id="@+id/vp_container"
@@ -26,4 +27,5 @@
             android:layout_weight="0"/>
 
     </android.support.v4.app.FragmentTabHost>
+
 </LinearLayout>
